@@ -3,7 +3,7 @@ namePrefix: overlay-
 resources:
 - ../../kustomize-guestbook
 
-overlay
+overlay:
 - prod.yaml
 
 apiVersion: kustomize.config.k8s.io/v1beta1
