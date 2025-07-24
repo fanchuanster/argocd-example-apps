@@ -1,4 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
+metadata:
+  name: guestbook-ui   # must match the name from base
 spec:
   replicas: 2
